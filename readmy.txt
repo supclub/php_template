@@ -1,0 +1,29 @@
+/php_template/ - шаблона на php
+состав:
+- /php_template/template/ - сам шаблон
+- /php_template/images/ - для картинок в верстке
+- /php_template/vendor/ - для сторонних скриптов в верстке
+- /php_template/index.php - файл для верстки
+- /php_template/script.js - скрипты верстки
+- /php_template/style.css - стили верстки
+
+Что включено:
+- bootstrap 3
+- jquery 2
+- fancybox 2
+- bxslider 4
+- scrollbar
+
+Требования к верстке:
+- используем bootstrap 3 для верстки
+- используем БЭМ для верстки
+- используем jquery для js
+- используем fancybox для popup
+- используем bxslider для слайдеров
+- используем scrollbar для кастомного скролла
+
+Шаблон можно править только для подключения сторонних скриптов в файлы:
+/php_template/template/header.php - css
+/php_template/template/footer.php - js
+
+Править стили или скрипты в шаблоне нельзя.
